@@ -75,7 +75,7 @@ const Experience = () => {
     {
       title: "Junior React Developer",
       company: "Junior React Developer",
-      timeline: "Part-time(Feb 2022 - Apr 2023)",
+      timeline: "Part-time (Feb 2022 - Apr 2023)",
       work: [
         "Built single page applications from scratch using React, collaborating with Backend Developers and UI/UX designers on various projects.",
         "Developed visually appealing and user-friendly websites, conversion landing pages, and HTML emails for clients in collaboration with marketing teams.",
