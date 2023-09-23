@@ -48,7 +48,7 @@ const Skills = () => {
       <div className="flex gap-2 flex-col">
         {data.map((item) => (
           <div className="flex gap-2 flex-wrap">
-            <div className="rounded px-2 py-1 bg-[#343534] border border-gray-600">
+            <div className="rounded px-2 py-1 bg-[#343534] border border-zinc-600">
               {item.title}
             </div>
             {item.skills.map((item) => (

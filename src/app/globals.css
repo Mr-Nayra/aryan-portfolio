@@ -11,7 +11,7 @@ li {
 }
 
 .card-block {
-  @apply rounded-md bg-[#1F1F1F] border border-[#343534];
+  @apply rounded-md border border-[#343534] bg-[#1F1F1F] bg-gradient-to-br from-[#1F1F1F] to-[#161616];
 }
 
 .truncate-paragraph {

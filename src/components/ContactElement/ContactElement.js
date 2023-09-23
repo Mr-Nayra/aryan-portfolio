@@ -2,7 +2,7 @@ import React from "react";
 
 export const IconBlock = (props) => {
   return (
-    <div className="text-[#FDCE69] w-10 h-10 rounded-sm bg-[#343534] border border-gray-600 flex items-center justify-center">
+    <div className="text-[#FDCE69] w-10 h-10 rounded-sm bg-[#343534] border border-zinc-700 flex items-center justify-center">
       {props.children}
     </div>
   );

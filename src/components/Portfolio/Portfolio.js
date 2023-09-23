@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Header from "../Header/Header";
 import SkillBlock from "../SkillBlock/SkillBlock";
 import { IconBlock } from "../ContactElement/ContactElement";
@@ -6,8 +7,22 @@ import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Card = ({ item }) => {
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <div className="card-block p-4 flex flex-col lg:flex-row gap-5">
+    <div
+      className={`p-4 flex flex-col lg:flex-row gap-5 transition-all duration-300 ${
+        hovered
+          ? "rounded-md border border-[#343534] bg-[#252525]"
+          : "card-block"
+      }`}
+      onMouseEnter={() => {
+        setHovered(true);
+      }}
+      onMouseLeave={() => {
+        setHovered(false);
+      }}
+    >
       {item.image && (
         <div className="flex flex-col gap-5 lg:max-w-[280px] w-full justify-between">
           <img src={item.image} className="object-cover rounded flex-1" />

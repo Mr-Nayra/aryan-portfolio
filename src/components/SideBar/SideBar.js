@@ -19,7 +19,7 @@ const SideBar = () => {
         </div>
       </div>
       <div className="bg-[#343534] rounded-full my-5 h-2 w-3/12 hidden lg:block"></div>
-      <div className="flex-col flex-1 justify-between hidden lg:flex">
+      <div className="flex-col flex-1 justify-around hidden lg:flex">
         <ContactElement
           title="EMAIL"
           parah="aryanedu5786@gmail.com"

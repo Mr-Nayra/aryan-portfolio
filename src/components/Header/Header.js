@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <div className="card-block p-4 flex relative">
       <h1 className="font-semibold text-3xl">{props.heading}</h1>
-      <div className="absolute top-0 right-0 gap-10 px-5 py-3 bg-[#343534] border border-gray-600 rounded-se-lg rounded-es-lg hidden lg:flex">
+      <div className="absolute top-0 right-0 gap-10 px-5 py-3 bg-[#343534] border border-zinc-600 rounded-se-lg rounded-es-lg hidden lg:flex">
         <Link href="/">
           <p className={`${props.heading == "About me" && "text-[#FDCE69]"}`}>
             About
