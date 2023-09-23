@@ -25,7 +25,14 @@ const Card = ({ item }) => {
     >
       {item.image && (
         <div className="flex flex-col gap-5 lg:max-w-[280px] w-full justify-between">
-          <img src={item.image} className="object-cover rounded flex-1" />
+          <div className="overflow-hidden">
+            <img
+              src={item.image}
+              className={`object-cover rounded flex-1 transition-all duration-300 ${
+                hovered && "scale-125"
+              } `}
+            />
+          </div>
           <div className="gap-2 lg:flex hidden">
             {item.link && (
               <a target="__blank" href={item.link}>
