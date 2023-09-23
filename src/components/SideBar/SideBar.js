@@ -6,8 +6,8 @@ import ContactElement from "../ContactElement/ContactElement";
 
 const SideBar = () => {
   return (
-    <div className="card-block px-4 py-8 w-full lg:w-[20%] flex flex-col justify-start items-center max-h-[calc(100vh-40px)] lg:sticky top-5 overflow-y-auto overflow-x-hidden">
-      <div className="flex-1 flex flex-row lg:flex-col lg:items-center gap-5">
+    <div className="card-block p-4 lg:py-8 w-full lg:w-[20%] flex flex-col justify-start items-start lg:items-center max-h-[calc(100vh-40px)] lg:sticky top-5 overflow-y-auto overflow-x-hidden">
+      <div className="flex-1 flex flex-row lg:flex-col items-center gap-5">
         <img
           src="/profile-image.png"
           alt="profileImage"
