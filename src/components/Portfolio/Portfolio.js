@@ -174,7 +174,7 @@ const Portfolio = () => {
         "Designed and developed landing and conversion pages from the ground up, utilizing a range of tools including Next.js, React, Webflow, and HTML/CSS.",
         "Seamlessly integrated various tools, including HubSpot and Google Tag Manager (GTM), to optimize and enhance marketing efforts.",
       ],
-      link: "landing.konnectinsights.com",
+      link: "https://landing.konnectinsights.com",
     },
     {
       title: "Learn Solidity",
