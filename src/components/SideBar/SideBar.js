@@ -14,8 +14,8 @@ const SideBar = () => {
           className="bg-[#343534] rounded-full w-20 lg:w-4/5"
         />
         <div>
-          <h1 className="text-center font-medium text-2xl">Aryan Rawther</h1>
-          <p className="text-center">Software Developer</p>
+          <h1 className="lg:text-center font-medium text-2xl">Aryan Rawther</h1>
+          <p className="lg:text-center">Software Developer</p>
         </div>
       </div>
       <div className="bg-[#343534] rounded-full my-5 h-2 w-3/12 hidden lg:block"></div>
