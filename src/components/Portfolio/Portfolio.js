@@ -25,10 +25,10 @@ const Card = ({ item }) => {
     >
       {item.image && (
         <div className="flex flex-col gap-5 lg:max-w-[280px] w-full justify-between">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden flex-1 ">
             <img
               src={item.image}
-              className={`object-cover rounded flex-1 transition-all duration-300 ${
+              className={`object-cover rounded transition-all duration-300 h-full w-full ${
                 hovered && "scale-125"
               } `}
             />
