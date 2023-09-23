@@ -55,6 +55,14 @@ const Links = () => {
           >
             <CodeIcon />
           </ContactElement>
+          <ContactElement
+            title="Resume"
+            parah="Google Docs"
+            href="https://drive.google.com/file/d/1nXNGuW8Si3Btw1ZBAwAl2YJxxzMnUAyu/view"
+            showFull
+          >
+            <CodeIcon />
+          </ContactElement>
         </div>
       </div>
     </div>

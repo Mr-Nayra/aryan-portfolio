@@ -153,6 +153,18 @@ const Portfolio = () => {
       link: "https://www.growthspreeofficial.com/",
     },
     {
+      title: "Resume Template",
+      description: "",
+      skills: ["Tailwind", "HTML"],
+      image: "Resume.png",
+      work: [
+        "Designed a highly effective resume template that has been widely adopted by peers, enabling them to secure positions at top multinational corporations, including Morgan Stanley.",
+        "Brought the resume template to life by skillfully utilizing HTML and Tailwind CSS, resulting in an aesthetically pleasing and functional design.",
+      ],
+      link: "https://resume-mr-nayra.vercel.app/",
+      github: "https://github.com/Mr-Nayra/Resume",
+    },
+    {
       title: "Marketing Landing/Conversion Pages",
       description:
         "Contributed to the creation of diverse landing and conversion pages for various companies such as KonnectInsights, Hubilio, Gumlet etc.",

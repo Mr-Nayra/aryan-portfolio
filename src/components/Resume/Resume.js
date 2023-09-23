@@ -42,21 +42,19 @@ const Skills = () => {
     { title: "No-Code", skills: ["Webflow"] },
   ];
   return (
-    <div className="card-block p-4">
+    <div className="card-block p-4 basis-4/6">
       <h3 className="text-2xl font-medium mb-1">Skills</h3>
       <div className="w-10 h-0.5 rounded bg-[#FDCE69] mb-4"></div>
-      <div className="flex gap-2 flex-wrap">
+      <div className="flex gap-2 flex-col">
         {data.map((item) => (
-          // <div className="flex gap-2 ">
-          <>
+          <div className="flex gap-2 flex-wrap">
             <div className="rounded px-2 py-1 bg-[#343534] border border-gray-600">
               {item.title}
             </div>
             {item.skills.map((item) => (
               <SkillBlock item={item} />
             ))}
-          </>
-          // </div>
+          </div>
         ))}
       </div>
     </div>
@@ -130,7 +128,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="card-block p-4">
+    <div className="card-block p-4 flex-1">
       <h3 className="text-2xl font-medium mb-1">Education</h3>
       <div className="w-10 h-0.5 rounded bg-[#FDCE69] mb-4"></div>
       {data.map((item) => (
@@ -162,8 +160,10 @@ const Resume = () => {
     <div className="flex-1 flex flex-col gap-5">
       <Header heading="Resume" />
       <Experience />
-      <Skills />
-      <Education />
+      <div className="flex flex-col lg:flex-row gap-5">
+        <Skills />
+        <Education />
+      </div>
     </div>
   );
 };
