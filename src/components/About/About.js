@@ -39,13 +39,13 @@ const About = () => {
           parah="I possess a strong foundation in web development, with expertise in HTML, CSS, JavaScript, and React, complemented by practical experience in building user-friendly web applications. Additionally, I am proficient in Node.js and Express, enabling me to tackle backend development tasks effectively."
         />
 
-        <Card
+        {/* <Card
           heading="Data Structures And Algorithm"
           parah="I've diligently practiced coding
         challenges on platforms like LeetCode and engaged in competitive coding
         using C++, solidifying my algorithmic and problem-solving abilities
         while mastering various data structures and algorithms."
-        />
+        /> */}
         <Card
           heading="Decentralized Application Development"
           parah="I possess the capability to craft
@@ -53,13 +53,13 @@ const About = () => {
       enabling the creation of decentralized applications with a focus on
       blockchain technology."
         />
-        <Card
+        {/* <Card
           heading="Machine Learning Apprentice"
           parah="I'm on a learning journey, starting from
         Python proficiency, building a strong foundation in mathematics, and
         developing data analysis skills, all in pursuit of mastering the
         exciting field of machine learning."
-        />
+        /> */}
       </div>
     </div>
   );
