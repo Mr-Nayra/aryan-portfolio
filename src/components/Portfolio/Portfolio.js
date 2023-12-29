@@ -119,6 +119,18 @@ const Portfolio = () => {
       link: "https://nextinnings.me/",
     },
     {
+      title: "Uptrain AI (YC W23)",
+      description:
+        "Uptrain is an innovative online platform dedicated to understanding the quality of LLM applications.",
+      skills: ["SEO", "Next.js", "SCSS"],
+      image: "UptrainWebApp.png",
+      work: [
+        "Significantly improved website performance by enhancing SEO optimization, increasing performance from 37% to 99%.",
+        "Debugged existing codebase and implemented new functionalities, including a live demo.",
+      ],
+      link: "https://uptrain.ai/",
+    },
+    {
       title: "PESU Venture Labs App",
       description:
         "Designed and developed the Pesu Venture Labs Website, a dynamic platform showcasing the lab's portfolio and company updates.",
