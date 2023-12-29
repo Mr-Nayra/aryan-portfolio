@@ -12,8 +12,8 @@ const Card = ({ item }) => {
   return (
     <div
       className={`p-4 flex flex-col lg:flex-row gap-5 transition-all duration-300 ${hovered
-          ? "rounded-md border border-[#343534] bg-[#252525]"
-          : "card-block"
+        ? "rounded-md border border-[#343534] bg-[#252525]"
+        : "card-block"
         }`}
       onMouseEnter={() => {
         setHovered(true);
@@ -171,7 +171,23 @@ const Portfolio = () => {
         "Successfully integrated the backend with the front-end using REST API requests, creating a seamless user experience.",
       ],
     },
-
+    // {
+    //   title: "Uptrain Dashboard",
+    //   description:
+    //     "",
+    //   skills: [
+    //     "React",
+    //     "Redux",
+    //     "Next.js",
+    //     "REST",
+    //     "Tailwind"
+    //   ],
+    //   image: "UptrainDashboard.png",
+    //   work: [
+    //     "Developed a comprehensive React/Redux dashboard application from inception, translating Figma designs into fully functional pages including landing, login, and main dashboard features.",
+    //     "Successfully integrated the backend with the front-end using REST API requests, creating a seamless user experience.",
+    //   ],
+    // },
     {
       title: "GrowthSpree Website",
       description:
@@ -194,6 +210,17 @@ const Portfolio = () => {
         "Brought the resume template to life by skillfully utilizing HTML and Tailwind CSS, resulting in an aesthetically pleasing and functional design.",
       ],
       link: "https://resume-mr-nayra.vercel.app/",
+      github: "https://github.com/Mr-Nayra/Resume",
+    },
+    {
+      title: "Portfolio App",
+      description: "",
+      skills: ["React", "Tailwind", "Next.js"],
+      image: "PortfolioApp.png",
+      work: [
+        "Built with Next.js and styled with Tailwind CSS, my portfolio fuses modern design with dynamic technology for a captivating user experience.",
+        "Tailwind CSS ensures my portfolio adapts effortlessly to various devices, offering a visually polished showcase of my work across desktop and mobile.",
+      ],
       github: "https://github.com/Mr-Nayra/Resume",
     },
     {
