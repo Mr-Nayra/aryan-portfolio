@@ -107,16 +107,16 @@ const Card = ({ item }) => {
 const Portfolio = () => {
   const data = [
     {
-      title: "Culture Place App",
+      title: "Nextinnings App",
       description:
-        "Culture Place is a community collaboration web application designed to promote social engagement and interaction.",
+        "Nextinnings is a go-to platform for senior citizens to interact, learn, create, have fun.",
       skills: ["React", "Redux", "Tailwind", "Express"],
-      image: "CulturePlace.png",
+      image: "NextInnings.png",
       work: [
-        "Contributed to the development of the Culture Place web app by solving bugs, adding new functionality, and suggesting improvements to logic errors.",
+        "Contributed to the development of the Nextinnings web app by solving bugs, adding new functionality, and suggesting improvements to logic errors.",
         "Ensured a positive user experience by making the application mobile responsive and accessible on all devices.",
       ],
-      link: "https://cultureplace.in/",
+      link: "https://nextinnings.me/",
     },
     {
       title: "PESU Venture Labs App",
@@ -129,6 +129,18 @@ const Portfolio = () => {
         "Enhanced user experience through mobile responsiveness and universal device accessibility.",
       ],
       link: "https://www.pesuventurelabs.com/",
+    },
+    {
+      title: "Culture Place App",
+      description:
+        "Culture Place is a community collaboration web application designed to promote social engagement and interaction.",
+      skills: ["React", "Redux", "Tailwind", "Express"],
+      image: "CulturePlace.png",
+      work: [
+        "Contributed to the development of the Culture Place web app by solving bugs, adding new functionality, and suggesting improvements to logic errors.",
+        "Ensured a positive user experience by making the application mobile responsive and accessible on all devices.",
+      ],
+      link: "https://cultureplace.in/",
     },
     {
       title: "Winbox Help App",
