@@ -11,11 +11,10 @@ const Card = ({ item }) => {
 
   return (
     <div
-      className={`p-4 flex flex-col lg:flex-row gap-5 transition-all duration-300 ${
-        hovered
+      className={`p-4 flex flex-col lg:flex-row gap-5 transition-all duration-300 ${hovered
           ? "rounded-md border border-[#343534] bg-[#252525]"
           : "card-block"
-      }`}
+        }`}
       onMouseEnter={() => {
         setHovered(true);
       }}
@@ -28,9 +27,8 @@ const Card = ({ item }) => {
           <div className="overflow-hidden flex-1 ">
             <img
               src={item.image}
-              className={`object-cover rounded transition-all duration-300 h-full w-full ${
-                hovered && "scale-125"
-              } `}
+              className={`object-cover rounded transition-all duration-300 h-full w-full ${hovered && "scale-125"
+                } `}
             />
           </div>
           <div className="gap-2 lg:flex hidden">
@@ -81,14 +79,14 @@ const Card = ({ item }) => {
         {item.image && (
           <div className="gap-2 flex lg:hidden mb-4">
             {item.link && (
-              <a target="__blank" href="item.link">
+              <a target="__blank" href={item.link}>
                 <IconBlock>
                   <LinkIcon />
                 </IconBlock>
               </a>
             )}
             {item.github && (
-              <a target="__blank" href="item.github">
+              <a target="__blank" href={item.github}>
                 <IconBlock>
                   <GitHubIcon />
                 </IconBlock>
