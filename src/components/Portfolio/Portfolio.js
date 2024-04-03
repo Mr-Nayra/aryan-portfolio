@@ -142,17 +142,29 @@ const Portfolio = () => {
       ],
       link: "https://www.pesuventurelabs.com/",
     },
+    // {
+    //   title: "Culture Place App",
+    //   description:
+    //     "Culture Place is a community collaboration web application designed to promote social engagement and interaction.",
+    //   skills: ["React", "Redux", "Tailwind", "Express"],
+    //   image: "CulturePlace.png",
+    //   work: [
+    //     "Contributed to the development of the Culture Place web app by solving bugs, adding new functionality, and suggesting improvements to logic errors.",
+    //     "Ensured a positive user experience by making the application mobile responsive and accessible on all devices.",
+    //   ],
+    //   link: "https://cultureplace.in/",
+    // },
     {
-      title: "Culture Place App",
+      title: "GrowthSpree Website",
       description:
-        "Culture Place is a community collaboration web application designed to promote social engagement and interaction.",
-      skills: ["React", "Redux", "Tailwind", "Express"],
-      image: "CulturePlace.png",
+        "Winbox Help App optimizes Winbox usage for maximum efficiency.",
+      skills: ["Webflow", "HTML", "CSS", "Javascript"],
+      image: "GrowthSpree.png",
       work: [
-        "Contributed to the development of the Culture Place web app by solving bugs, adding new functionality, and suggesting improvements to logic errors.",
-        "Ensured a positive user experience by making the application mobile responsive and accessible on all devices.",
+        "Developed and maintained the frontend of the GrowthSpree official website using Webflow, a no-code framework.",
+        "Created a visually appealing and user-friendly website to effectively promote and showcase the company's services and mission",
       ],
-      link: "https://cultureplace.in/",
+      link: "https://www.growthspreeofficial.com/",
     },
     {
       title: "Winbox Help App",
@@ -200,18 +212,7 @@ const Portfolio = () => {
     //     "Successfully integrated the backend with the front-end using REST API requests, creating a seamless user experience.",
     //   ],
     // },
-    {
-      title: "GrowthSpree Website",
-      description:
-        "Winbox Help App optimizes Winbox usage for maximum efficiency.",
-      skills: ["Webflow", "HTML", "CSS", "Javascript"],
-      image: "GrowthSpree.png",
-      work: [
-        "Developed and maintained the frontend of the GrowthSpree official website using Webflow, a no-code framework.",
-        "Created a visually appealing and user-friendly website to effectively promote and showcase the company's services and mission",
-      ],
-      link: "https://www.growthspreeofficial.com/",
-    },
+
     {
       title: "Resume Template",
       description: "",

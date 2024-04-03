@@ -31,10 +31,13 @@ const Skills = () => {
     {
       title: "Blockchain",
       skills: ["Web3", "Solidity", "Truffle", "Smart Contracts"],
+    }, {
+      title: "Desktop Application Dev",
+      skills: ["C++", "Threading", "Windows.h", "File System Handling"],
     },
     {
       title: "Testing",
-      skills: ["Jest", "React-testing-library", "Mocha"],
+      skills: ["Jest", "React-testing-library", "Gtest", "Gmock"],
     },
     { title: "Hosting", skills: ["Amazon(EC2)", "Firebase", "Vercel"] },
     { title: "Design", skills: ["Photoshop", "XD", "Figma"] },
@@ -64,9 +67,17 @@ const Skills = () => {
 const Experience = () => {
   const data = [
     {
+      title: "Desktop application Intern",
+      company: "Egnyte",
+      timeline: "Jan 2024 - Present",
+      work: [
+        "Diving deep into the world of Windows desktop application development using C++, while understanding core components like threading, file system management, etc.",
+      ],
+    },
+    {
       title: "Student Innovation Lead (Product Development)",
       company: "PESU Venture Labs",
-      timeline: "Part-time (Apr 2023 - Present)",
+      timeline: "Part-time (Apr 2023 - Dec 2023)",
       work: [
         "Led the frontend team in adding new functionality to a Next.js application, while suggesting and overseeing the creation of backend APIs to fix bugs and issues.",
         "Engaged in a diverse range of projects spanning from developing the company's new official website to collaborating on initiatives for multiple startups within the venture.",

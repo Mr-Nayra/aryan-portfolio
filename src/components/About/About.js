@@ -53,13 +53,11 @@ const About = () => {
       enabling the creation of decentralized applications with a focus on
       blockchain technology."
         />
-        {/* <Card
-          heading="Machine Learning Apprentice"
-          parah="I'm on a learning journey, starting from
-        Python proficiency, building a strong foundation in mathematics, and
-        developing data analysis skills, all in pursuit of mastering the
-        exciting field of machine learning."
-        /> */}
+        <Card
+          heading="Windows Application Development Apprentice"
+          parah="
+          I'm on a learning journey, starting from proficiency in C++, and diving deep into more complex concepts of Windows application development."
+        />
       </div>
     </div>
   );
